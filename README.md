@@ -21,7 +21,7 @@ Most content isn't geoblocked but some (live tv and some program) is so not ever
 
 ### Latest release
 Manual install: [Download ZIP](https://github.com/phate89/plugin.video.rsich/releases)
-Require: [script.module.phate89 v1.0.0](https://github.com/phate89/script.module.phate89/releases/download/1.0.0/script.module.phate89.v1.0.0.zip)
+Require: [script.module.phate89 v1.0.1](https://github.com/phate89/script.module.phate89/releases/download/1.0.1/script.module.phate89.v1.0.1.zip)
 
 ### Thanks
 * To  for the first addon version!
