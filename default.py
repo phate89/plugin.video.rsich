@@ -119,7 +119,7 @@ def getPrograms(letter=''):
     return ret
 
 def getChannels():
-    jsn = webutils.getJson('http://www.rsi.ch/play/tv/livemodule?layout=json')
+    jsn = webutils.getJson('https://www.rsi.ch/play/tv/live/overview')
     if not jsn or 'teaser' not in jsn:
         return False
     return jsn['teaser']
@@ -175,7 +175,7 @@ def addLive():
     chs = getChannels()
     if chs:
         for ch in chs:
-            kodiutils.addListItem(ch['title'], params={"mode": "video", "id": ch['id'] }, thumb=ch['logoUrl'], videoInfo={'mediatype': 'video'}, isFolder=False)
+            kodiutils.addListItem(ch['channelName'], params={"mode": "video", "id": ch['id'] }, thumb=ch['logo'], videoInfo={'mediatype': 'video'}, isFolder=False)
     kodiutils.endScript()
 
 def addCategories():
