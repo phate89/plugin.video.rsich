@@ -60,6 +60,10 @@ msgctxt "#32016"
 msgid "Editor picks"
 msgstr "Scelti per voi"
 
+msgctxt "#32017"
+msgid "Live Sports"
+msgstr "Live Sports"
+
 #label date
 msgctxt "#32020"
 msgid "{dayname} {day} {month} {year}"
