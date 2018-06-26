@@ -269,19 +269,15 @@ def getLiveSportLink():
                 # Extract the hls streaming link.
                 hls = event['hls']
                 
-                print(hls)
-                print(event['hls'])
-                
                 # Save the url (trunc before the "?" character) in the dict.
                 live['url'] = hls.split("?")[0]
-                print(live['url'])
                 
                 # Save the title in the dict.
                 live['title'] = event['title']
-                print(live['title'])
+				
                 # Save the image URL in the dict.
                 live['thumbURL'] = event['imageUrl']
-                print(live['thumbURL'])
+				
                 # Append the dict to the events list.
                 liveSports.append(live)
 
